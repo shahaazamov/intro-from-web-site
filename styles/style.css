@@ -69,6 +69,7 @@ body{
     flex-direction: column;
     font-size: 16px;
     line-height: 24px;
+    padding:50px;
     background-color: #e7e7e7;
     color:var(--text-color);
 }
@@ -162,16 +163,71 @@ height: auto;
 
 /*INTR SECTION STYLES*/
 .intro-form {
+    width:570px;
+    background-color:var(--white-color);
+    padding:55px 60px 40px;
+    border-radius:20px;
 }
 .intro-right__heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color:var(--text-color);
+    margin-bottom: 64px;
 }
 .intro-right__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+    
 }
 .hero-rigth__input {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    border:none;
+    outline: none;
+    padding: 15px 0 14px 0;
+    border-bottom: 1px solid var(--placeholder-color);
+    color:var(--placeholder-color);
+    outline: none;
+}
+.hero-rigth__input:not(:last-child){
+    margin-bottom: 20px;
+}
+.hero-rigth__input:focus{
+    font-weight: 600;
+    border-color:var(--text-color);
+    color:var(--text-color);
 }
 .intro-right__button {
+    width:100%;
+    max-width:450px;
+    padding:20px 0;
+    margin-bottom: 8px;
+    background-color:var(--btn-color);
+    color:var(--white-color);
+    display: block;
+    border:none;
+    border-radius:10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    cursor:pointer;
+
 }
 .intro-right__text-bottom {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color:var(--placeholder-color);
+}
+.intro-right__text-bottom a{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color:var(--red-color);
+    displaly:inline-block;
 }
 
 
